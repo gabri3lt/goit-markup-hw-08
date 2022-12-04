@@ -1,0 +1,33 @@
+.project__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-top: 50px;
+  margin-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+  column-count: 3;
+  gap: calc(30px * 2 / 2);
+}
+
+.project__box {
+  position: relative;
+}
+
+.project__description {
+  position: absolute;
+  bottom: 1%;
+  color: var(--color3);
+  background-color: var(--color13);
+  width: 370px;
+  height: 70px;
+  text-align: center;
+  padding-top: 28px;
+  /*text description*/
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

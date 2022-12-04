@@ -1,0 +1,42 @@
+.form-checkbox {
+  position: relative;
+  cursor: pointer;
+  padding-left: 8px;
+
+  &__inp {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+  }
+
+  &__checkmark {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    border-radius: 2px;
+    border: 1px solid var(--color2);
+    left: -11px;
+    bottom: 5px;
+    transition: background-color 250ms ease;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__icon {
+    position: absolute;
+    z-index: 4;
+    bottom: 7px;
+    left: -9px;
+    opacity: 0;
+  }
+}
+
+.form-checkbox input:checked ~ .form-checkbox__checkmark {
+  background-color: var(--color4);
+  border-color: var(--color4);
+  fill: var(--color3);
+}
+
+.form-checkbox input:checked ~ .form-checkbox__icon {
+  fill: var(--color3);
+  opacity: 100;
+}

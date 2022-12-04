@@ -1,0 +1,53 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  background: var(--color11);
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    padding-bottom: 94px;
+  }
+
+  &__item {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+    background: var(--color3);
+
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px var(--shadow1), 0px 1px 1px var(--shadow2),
+      0px 2px 1px var(--shadow3);
+    border-radius: 0px 0px 4px 4px;
+  }
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  &__icon {
+    display: inline-block;
+    list-style-type: none;
+    width: 44px;
+    height: 44px;
+    background-color: var(--color3);
+    border: 2px solid var(--color3);
+    border-radius: 50%;
+    padding-top: 3.5%;
+    padding-left: 3.5%;
+    cursor: pointer;
+    fill: var(--color7);
+    transition: fill 250ms ease, background-color 250ms ease, border 250ms ease;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      fill: var(--color3);
+      background-color: var(--color4);
+      border: 2px solid var(--color4);
+      border-radius: 50%;
+    }
+  }
+}

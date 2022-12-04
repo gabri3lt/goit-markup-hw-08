@@ -1,0 +1,47 @@
+.skill {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  list-style-type: none;
+
+  &__icon {
+    display: inline-block;
+    position: relative;
+    left: 36%;
+    top: 15%;
+    fill: var(--color2);
+  }
+
+  &__title {
+    display: block;
+    position: relative;
+    top: 50%;
+  }
+
+  &__heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color1);
+    height: 120px;
+    background-color: var(--color8);
+    border: 2px solid var(--color8);
+  }
+
+  &__description {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--color5);
+    position: relative;
+    top: 50%;
+  }
+}
