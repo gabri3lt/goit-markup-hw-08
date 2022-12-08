@@ -19,6 +19,10 @@
     bottom: 5px;
     transition: background-color 250ms ease;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (max-width: 768px) {
+      bottom: 1px;
+    }
   }
 
   &__icon {

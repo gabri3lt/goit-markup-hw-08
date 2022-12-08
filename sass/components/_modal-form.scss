@@ -65,6 +65,10 @@
       border-radius: 4px;
       outline: none;
     }
+
+    @media screen and (max-width: 768px) {
+      width: 370px;
+    }
   }
 
   &__icon {
@@ -120,6 +124,10 @@
     border-radius: 4px;
     outline: none;
   }
+
+  @media screen and (max-width: 768px) {
+    width: 370px;
+  }
 }
 
 .form-terms {
@@ -139,6 +147,11 @@
     text-decoration: underline;
     color: var(--color4);
   }
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 
 .form-btn {
@@ -156,4 +169,8 @@
   box-shadow: 0px 4px 4px var(--input_shadow);
   border-radius: 4px;
   border: unset;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 105px;
+  }
 }
