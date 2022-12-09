@@ -21,7 +21,7 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
+    <header class="container">
       <nav class="container page-header">
         <h2>
           <a
@@ -77,8 +77,27 @@
             </a>
           </li>
         </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
       </nav>
-      <section>
+      <section class="banner-section">
         <div class="banner">
           <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <button class="banner__button" type="button" data-modal-open>
@@ -179,9 +198,17 @@
         <div class="team__card">
           <figure class="team__item">
             <img
-              src="https://gabri3lt.github.io/goit-markup-hw-08/images/person1.jpg"
+              src="https://gabri3lt.github.io/goit-markup-hw-08/images/person1_1200x1.jpg"
+              srcset="
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person1_1200x1.jpg 270w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person1_1200x2.jpg 540w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person1_768x1.jpg  354w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person1_768x2.jpg  708w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person1_480x1.jpg  450w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person1_480x2.jpg  900w
+              "
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px,(min-width: 480px) 450px, 90vw"
               alt="John Doe"
-              width="270"
             />
             <figcaption>
               <span class="card-title"> John Doe</span>
@@ -228,10 +255,17 @@
           </figure>
           <figure class="team__item">
             <img
-              src="https://gabri3lt.github.io/goit-markup-hw-08/images/person2.jpg"
+              src="https://gabri3lt.github.io/goit-markup-hw-08/images/person2_1200x1.jpg"
+              srcset="
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person2_1200x1.jpg 270w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person2_1200x2.jpg 540w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person2_768x1.jpg  354w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person2_768x2.jpg  708w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person2_480x1.jpg  450w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person2_480x2.jpg  900w
+              "
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px,(min-width: 480px) 450px, 90vw"
               alt="John Doe"
-              width="270"
-              height="260"
             />
             <figcaption>
               <span class="card-title"> John Doe</span>
@@ -278,10 +312,17 @@
           </figure>
           <figure class="team__item">
             <img
-              src="https://gabri3lt.github.io/goit-markup-hw-08/images/person3.jpg"
+              src="https://gabri3lt.github.io/goit-markup-hw-08/images/person3_1200x1.jpg"
+              srcset="
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person3_1200x1.jpg 270w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person3_1200x2.jpg 540w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person3_768x1.jpg  354w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person3_768x2.jpg  708w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person3_480x1.jpg  450w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person3_480x2.jpg  900w
+              "
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px,(min-width: 480px) 450px, 90vw"
               alt="John Doe"
-              width="270"
-              height="260"
             />
             <figcaption>
               <span class="card-title"> John Doe</span>
@@ -328,10 +369,17 @@
           </figure>
           <figure class="team__item">
             <img
-              src="https://gabri3lt.github.io/goit-markup-hw-08/images/person4.jpg"
+              src="https://gabri3lt.github.io/goit-markup-hw-08/images/person4_1200x1.jpg"
+              srcset="
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person4_1200x1.jpg 270w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person4_1200x2.jpg 540w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person4_768x1.jpg  354w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person4_768x2.jpg  708w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person4_480x1.jpg  450w,
+                https://gabri3lt.github.io/goit-markup-hw-08/images/person4_480x2.jpg  900w
+              "
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px,(min-width: 480px) 450px, 90vw"
               alt="John Doe"
-              width="270"
-              height="260"
             />
             <figcaption>
               <span class="card-title"> John Doe</span>
@@ -611,6 +659,93 @@
         </form>
       </div>
     </div>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li>
+          <a
+            href="https://gabri3lt.github.io/goit-markup-hw-08/index.html"
+            class="link"
+            >Agencja</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://gabri3lt.github.io/goit-markup-hw-08/portfolio.html"
+            class="link"
+            >Portfolio</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://gabri3lt.github.io/goit-markup-hw-08/index.html"
+            class="link"
+            >Kontakt</a
+          >
+        </li>
+      </ul>
+      <ul class="mobile-menu__contact">
+        <li>
+          <a class="mobile-menu__contact--link" href="tel:+48111111111"
+            >+48 111 111 111</a
+          >
+        </li>
+        <li>
+          <a class="mobile-menu__contact--link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="mobile-menu__social">
+        <li>
+          <a class="mobile-menu__social--link" href="https://www.instagram.com/"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <a
+            class="mobile-menu__social--link"
+            href="https://twitter.com/?lang=pl"
+            >Twitter</a
+          >
+        </li>
+        <li>
+          <a
+            class="mobile-menu__social--link"
+            href="https://pl-pl.facebook.com/"
+            >Facebook</a
+          >
+        </li>
+        <li>
+          <a class="mobile-menu__social--link" href="https://pl.linkedin.com/"
+            >Linkedin</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://gabri3lt.github.io/goit-markup-hw-08/js/modal.js"></script>
+    <script src="https://gabri3lt.github.io/goit-markup-hw-08/js/mobile-menu.js"></script>
   </body>
 </html>

@@ -1,11 +1,11 @@
 .page-footer {
-  display: flex;
+  // display: flex;
   background-color: var(--color6);
-  height: 100vw;
+  // height: 100vw;
   padding-top: 25px;
 
   @media screen and (min-width: 768px) {
-    height: 100vw;
+    height: auto;
   }
 
   @media screen and (min-width: 1200px) {

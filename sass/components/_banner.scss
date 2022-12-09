@@ -1,29 +1,85 @@
+.banner-section {
+  margin: 0;
+}
 .banner {
   display: flex;
   flex-direction: column;
   background: var(--color6);
   align-items: center;
   justify-content: center;
-  height: 600px;
-  background-image: linear-gradient(#2f303a66, #2f303a66),
-    url("/images/banner_1200px1x.jpg");
+  height: 400px;
+  background-image: url("/images/banner_480px1x.jpg"),
+    linear-gradient(#2f303a66, #2f303a66);
   background-position: center;
   background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  box-shadow: inset 50px 50px 50px 50px rgb(47, 48, 58, 0.4),
+    inset 480px 400px 50px 50px rgb(47, 48, 58, 0.4);
+  width: auto;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+    background-image: url("/images/banner_728px1x.jpg");
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url("/images/banner_1200px1x.jpg");
+    height: 600px;
+  }
+}
+
+@media /* only for retina displays */ only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .banner {
+    background-image: url("/images/banner_480px2x.jpg");
+  }
+
+  @media /* only for retina displays */ only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .banner {
+      background-image: url("/images/banner_728px2x.jpg");
+    }
+  }
+
+  @media /* only for retina displays */ only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .banner {
+      background-image: url("/images/banner_1200px2x.jpg");
+    }
+  }
 }
 
 h1 {
-  width: 696px;
+  width: 365px;
   font-family: "Roboto";
   font-weight: 900;
-  font-size: 44px;
-  line-height: 3.8rem;
-  /* or 136% */
+  font-size: 26px;
+  line-height: 42px;
+  /* or 162% */
 
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: var(--color3);
+
+  @media screen and (min-width: 1200px) {
+    width: 696px;
+
+    font-size: 44px;
+    line-height: 3.8rem;
+  }
 }
 
 .banner__button {
