@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   height: 400px;
-  background-image: url("/images/banner_480px1x.jpg"),
+  background-image: url("https://gabri3lt.github.io/goit-markup-hw-08/images/banner_480px1x.jpg"),
     linear-gradient(#2f303a66, #2f303a66);
   background-position: center;
   background-repeat: no-repeat;
@@ -19,10 +19,10 @@
   width: auto;
   justify-content: center;
   @media screen and (min-width: 768px) {
-    background-image: url("/images/banner_728px1x.jpg");
+    background-image: url("https://gabri3lt.github.io/goit-markup-hw-08/images/banner_728px1x.jpg");
   }
   @media screen and (min-width: 1200px) {
-    background-image: url("/images/banner_1200px1x.jpg");
+    background-image: url("https://gabri3lt.github.io/goit-markup-hw-08/images/banner_1200px1x.jpg");
     height: 600px;
   }
 }
@@ -34,7 +34,7 @@
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
   .banner {
-    background-image: url("/images/banner_480px2x.jpg");
+    background-image: url("https://gabri3lt.github.io/goit-markup-hw-08/images/banner_480px2x.jpg");
   }
 
   @media /* only for retina displays */ only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -44,7 +44,7 @@
     only screen and (min-resolution: 192dpi),
     only screen and (min-resolution: 2dppx) {
     .banner {
-      background-image: url("/images/banner_728px2x.jpg");
+      background-image: url("https://gabri3lt.github.io/goit-markup-hw-08/images/banner_728px2x.jpg");
     }
   }
 
@@ -55,7 +55,7 @@
     only screen and (min-resolution: 192dpi),
     only screen and (min-resolution: 2dppx) {
     .banner {
-      background-image: url("/images/banner_1200px2x.jpg");
+      background-image: url("https://gabri3lt.github.io/goit-markup-hw-08/images/banner_1200px2x.jpg");
     }
   }
 }
