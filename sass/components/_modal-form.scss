@@ -67,7 +67,10 @@
       outline: none;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 480px) {
+      width: 370px;
+    }
+    @media screen and (min-width: 768px) {
       width: 370px;
     }
   }
@@ -126,7 +129,11 @@
     outline: none;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 480px) {
+    width: 370px;
+  }
+
+  @media screen and (min-width: 768px) {
     width: 370px;
   }
 }
@@ -149,7 +156,11 @@
     color: var(--color4);
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 480px) {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  @media screen and (min-width: 768px) {
     font-size: 12px;
     line-height: 14px;
   }
@@ -171,7 +182,10 @@
   border-radius: 4px;
   border: unset;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 480px) {
+    margin-left: 105px;
+  }
+  @media screen and (min-width: 768px) {
     margin-left: 105px;
   }
 }

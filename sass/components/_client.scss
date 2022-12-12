@@ -4,8 +4,18 @@
   list-style-type: none;
   justify-content: space-around;
   align-items: center;
+  max-width: 390px;
+  gap: 30px;
+  margin: auto;
+  margin-bottom: 60px;
+
+  @media screen and(min-width:480px) {
+    max-width: 450px;
+  }
 
   @media screen and (min-width: 768px) {
+    max-width: 738px;
+    gap: 30px;
   }
   @media screen and (min-width: 1200px) {
     flex-wrap: nowrap;

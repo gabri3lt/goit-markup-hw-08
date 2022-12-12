@@ -28,13 +28,14 @@ nav {
 .container {
   width: auto;
   padding: 0;
+  margin: auto;
 
   @media screen and (min-width: 768px) {
-    width: 100vw;
+    width: 100%;
   }
 
   @media screen and (min-width: 1200px) {
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
   }
 }
